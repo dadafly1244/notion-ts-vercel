@@ -7,7 +7,8 @@
     "watch-dev": "vite",
     "watch-vercel": "vercel dev --listen 2999",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vercel deploy"
   },
   "dependencies": {
     "axios": "^0.27.2",
